@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pass{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(NETBACK.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.pass h1{
+    font-family: bold;
+    color: red;
+    padding: 20px;
+    margin-left: 150px;
+}
+.press{
+  display: flex;
+}
+.press button{
+    color: white;
+    border: solid red;
+    padding: 6px ;
+    border-radius: 4px;
+    background-color:  red;
+    margin-left:83%;
+    margin-top:-5%;
+}
+.class{
+    width: 100%;
+}
+.class h2{
+    color: white;
+    margin-top: 15%;
+    margin-left: 250px;
+    font-family: arial black;
+    font-size: 40px;
+    justify-content: center;
+}
+.class h6{
+    color: white;
+    margin-top: 2%;
+    margin-left: 500px;
+    font-family:   arial;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.class p{
+    color: white;
+    margin-top: 2%;
+    margin-left: 350px;
+    font-family:   arial;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.create{
+    width: 100%;
+    flex: -1;
+}
+.create fieldset{
+    color: white;
+    margin-left: 27.5%;
+    margin-right: 45.5%;
+    margin-top: 2%;
+    padding: 15px;
+    border-radius: 10px;
+}
+.cass{
+    width: 100%;
+    display: flex;
+}
+.cass button{
+    color: white;
+    background-color: red;
+    margin-left: 55%;
+    margin-top: -3.75%;
+    padding-left: 30px;
+    padding-right: 50px;
+    border: red;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.another{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    background-image: url(babe.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-right: 25px;
+}
+.another h2{
+    font-family: arial black;
+    font-size: 50px;
+    margin-left: 11%;
+    padding-top: 10%;
+}
+.another p{
+    font-family: calibri;
+    font-size: 25px ;
+    margin-top: 30px;
+    margin-left:11% ;
+}
+.content{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    color: red;
+    background-image: url(net.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.content h3{
+    font-family: arial black;
+    font-size: 50px;
+    margin-left:55%;
+    margin-top: 8%;
+
+}
+.content p{
+    font-family: calibri;
+    font-size: 25px;
+    margin-left:55% ;
+    margin-top: 2px;
+}
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bob.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.explore h4{
+    color: rgb(224, 35, 67);
+    font-family: arial black;
+    font-size: 50px;
+    padding-top: 6%;
+    margin-left: 2%;
+}
+.explore p{
+    color: rgb(75, 4, 75);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+    margin-top: 7%;
+    margin-left: 2%;
+}
+.ruth{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+.ruth span{
+    padding-top: 2%;
+    margin-left: 25%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+}
+.text1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    background: beige;
+    position: relative;
+    animation: text 10s 1;
+}
+.text2{
+    font-size: 25px;
+    color: gold;
+}
+@keyframes text{
+    0%{
+        color: gold;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+.ruth h6{
+    font-size: 30px;
+    margin-top: 15%;
+    margin-left: 25%;
+    
+}
+.ruth h6 strong{
+    color: gold;
+}
+.ruth p{
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 16%;
+    margin-left: 2%;
+}
